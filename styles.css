@@ -1,0 +1,88 @@
+/* Navigation Bar */
+nav {
+    background-color: #333;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li a {
+    display: block;
+    color: rgb(193, 25, 25);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    background-color: #111;
+  }
+  
+  /* About Section */
+  #about {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+  }
+  
+  #about img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  #about ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #about li {
+    margin-bottom: 10px;
+  }
+  
+  /* Resume Section */
+  #resume {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 50px;
+  }
+  
+  #resume label {
+    display: block;
+    margin-top: 20px;
+  }
+  
+  #resume input[type=text],
+  #resume input[type=email],
+  #resume textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  #resume input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #resume input[type=submit]:hover {
+    background-color: #45a049;
+  }
